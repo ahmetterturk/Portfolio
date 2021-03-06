@@ -10,3 +10,8 @@ a{
     margin: 20px;
     display: inline-block;
 }
+
+img{
+    height: 50px;
+    width: 50px;
+}
