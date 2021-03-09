@@ -1,12 +1,79 @@
-nav{
-    text-align: center;
-    background-color: #02203c;
-    height: 60px;
+.container{
+    /* border: 3px solid black; */
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+    padding: 10px;
+}
+.figure{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    flex-grow: 1;
+}
+.content{
+    flex-grow: 2;
+}
+.blog-footer{
+    margin: 10px 0;
+    position: absolute;
 }
 
-a{
+.mobile-figure{
+    width: 50%;
+}
+
+.mobile-container{
+    /* border: 3px solid black; */
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.mobile-blog-footer{
+    margin: 20px auto;
+}
+
+.mobile-blog-text{
+    width: 70%;
+    margin: 10px auto;
+}
+
+.desktop-button, .mobile-button{
+    border: 1px solid rgb(55, 79, 88);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
     text-decoration: none;
+    color: rgb(32, 40, 68);
+    transition: 0.2s;
+    /* float: left; */
+}
+
+.desktop-button:hover, .mobile-button:hover{
+    background-color: rgb(39, 82, 117);
     color: white;
-    margin: 20px;
-    display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-desktop {
+        display: none;
+    }
+} 
+
+.container:hover{
+    box-shadow: 5px 8px 21px 2px #838383;
+}
+
+.mobile-container:hover{
+    box-shadow: 5px 8px 21px 2px #838383;
 }
