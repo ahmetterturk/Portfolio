@@ -1,16 +1,3 @@
-nav{
-    text-align: center;
-    background-color: #02203c;
-    height: 60px;
-}
-
-nav a{
-    text-decoration: none;
-    color: white;
-    margin: 20px;
-    display: inline-block;
-}
-
 #resume{
     color: black;
 }
