@@ -1,12 +1,56 @@
-nav{
-    text-align: center;
-    background-color: #02203c;
-    height: 60px;
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    margin: 20px;
-    display: inline-block;
+img{
+    width: 80%;
+    margin: 10px auto;
 }
+
+.project-section{
+    /* border: 1px solid black; */
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.project-section:hover{
+    box-shadow: 5px 8px 21px 2px #838383;
+}
+
+@media (min-width: 768px){
+    .projects{
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+}
+
+.button{
+    border: 1px solid rgb(55, 79, 88);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(32, 40, 68);
+    transition: 0.2s;
+    width: 30%;
+}
+
+.button:hover {
+    background-color: rgb(39, 82, 117);
+    color: white;
+}
+
+/* .project-section:hover ~ .projects{
+    filter: blur(10px);
+} */
