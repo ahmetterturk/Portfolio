@@ -1,3 +1,114 @@
-#resume{
-    color: black;
+@media screen and (max-width: 576px){
+    .skills{
+        height: 300px;
+    }
+    .experince{
+        height: 800px;
+    }
+    .about{
+        height: 200px;
+    }
+    .resume-section{
+        margin: 100px auto;
+    }
+}
+
+@media screen and (min-width: 576px){
+    /* .skills{
+        
+    }  */
+    /* .experince{
+        height: 800px;
+    } */
+    .about{
+        height: 200px;
+    } 
+    .resume-section{
+        margin: 70px auto;
+    }
+    #desktop-header{
+        border-bottom: none;
+    }
+}
+
+.header2{
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.header2-2{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#skills-header{
+    text-align: center;
+}
+
+.skills{
+    margin-bottom: 100px;
+}
+
+.resume-section{
+    /* margin: 100px auto; */
+    text-align: center;
+}
+
+#resume img{
+    width: 60px;
+    height: 60px;
+    transition: 0.2s;
+}
+
+#resume img:hover{
+    width: 70px;
+    height: 70px;
+}
+
+.about{
+    /* height: 300px; */
+    margin: 0 auto;
+    background-color: #f2f2f1;
+    padding: 30px;
+    text-align: center;
+}
+
+.experience{
+    /* height: 800px; */
+    background-color: #0a2341;
+    color: white;
+    padding: 30px;
+}
+
+.education{
+    height: 500px;
+    background-color: #f2f2f1;
+    padding: 30px;
+}
+
+#experince-last-child{
+    border-top: 1px solid white;
+}
+
+#education-last-child{
+    border-top: 1px solid black;
+}
+
+.skills-icon-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.skills-icon-container img{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
