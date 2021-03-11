@@ -1,10 +1,15 @@
+body{
+    font-family: 'Encode Sans', sans-serif;
+}
+
 nav{
     text-align: center;
-    background-color: #02203c;
+    background-color: #0f3057;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 nav a{
@@ -17,21 +22,6 @@ nav a{
 
 nav a:hover{
     font-size: 1.3em;
-}
-
-
-footer{
-    /* margin-top: 100vh; */
-    position: relative;
-    text-align: center; 
-    /* margin-top: -200px;
-    /* position: relative;
-    text-align: center;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    font-size: 15px; */
-
 }
 
 @media screen and (max-width: 576px){
@@ -47,3 +37,15 @@ footer{
         display: inline-block;
     }
 }
+
+
+/* 
+color palette 1
+#0f3057, #00587a, #008891, #e7e7de
+
+color palette2
+#1E3D58, #057DCD, #43B0F1, #E8EEF1
+
+klarna grey
+#f2f2f1
+*/
