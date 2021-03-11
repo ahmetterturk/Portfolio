@@ -1,5 +1,4 @@
 .container{
-    /* border: 3px solid black; */
     width: 70%;
     margin: 20px auto;
     display: flex;
@@ -26,8 +25,11 @@
     width: 50%;
 }
 
+.blog-desktop, .blog-mobile{
+    padding-bottom: 100px;
+}
+
 .mobile-container{
-    /* border: 3px solid black; */
     text-align: center;
     width: 70%;
     margin: 20px auto;
@@ -53,14 +55,11 @@
     text-decoration: none;
     color: rgb(32, 40, 68);
     transition: 0.2s;
-    /* float: left; */
     background-color: rgb(39, 82, 117);
     color: white;
 }
 
 .desktop-button:hover, .mobile-button:hover{
-    /* background-color: rgb(39, 82, 117);
-    color: white; */
     color: rgb(32, 40, 68);
     background-color: white;
 }
