@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <title>Projects</title>
 </head>
 <body>
@@ -14,7 +18,7 @@
         <a href="/about.html">About</a>
         <a href="/projects.html">Projects</a>
         <a href="blogs.html">Blogs</a>
-        <a href="/social.html">Social</a>
+        <a href="/social.html">Contact</a>
     </nav>
 
     <!-- <h1>Projects</h1> -->
@@ -22,14 +26,18 @@
     <main class="projects">
         <section class="project-section">
             <h2>Covid-19 Live Data</h2>
-            <img src="/images/project-images/CovidTrackerProject.png" alt="Project 1">
-            <div>
+            <div class="image">
+                <img src="/images/project-images/CovidTrackerProject.png" alt="Project 1">
+            </div>
+            <div class="tech-used">
+                <h4>Technology</h4>
                 <p>
                     JavaScript(Node.js, Express.js, Request), HTML,
                     CSS, Bootstrap, Highcharts
                 </p>
             </div>
-            <div>
+            <div class="description">
+                <h4>Description</h4>
                 <p>
                     Created a Node.js application that extracts live data
                     from an API and uses interactive charts to visualize
@@ -43,11 +51,16 @@
 
         <section class="project-section">
             <h2>Movie Watch List</h2>
-            <img src="/images/project-images/MovieProjects.jpg" alt="Project 2">
-            <div>
+            
+            <div class="image">
+                 <img src="/images/project-images/MovieProjects.jpg" alt="Project 2">
+            </div>
+            <div class="tech-used">
+                <h4>Technology</h4>
                 <p>JavaScript(Node.js, Express.js), MongoDB,HTML,CSS, Bootstrap, Google Fonts</p> 
             </div>
-            <div>
+            <div class="description">
+                <h4>Description</h4>
                 <p>
                     Created a movie watch list application using Express.
                     js for the backend and MongoDB for the
@@ -59,28 +72,29 @@
         </section>
 
 
+
         <section class="project-section">
             <h2>To-Do List</h2>
-            <img src="/images/project-images/TodoListProject.png" alt="Project 3">
-            <div>
-                <p>
-                    JQuery, HTML, CSS
-                </p>
+            
+            <div class="image">
+                 <img src="/images/project-images/TodoListProject.png" alt="Project 3">
             </div>
-            <div>
+            <div class="tech-used">
+                <h4>Technology</h4>
+                <p>JQuery, HTML, CSS</p> 
+            </div>
+            <div class="description">
+                <h4>Description</h4>
                 <p>
                     A simple to-do list made using JQuery. Used HTML and CSS for structure and style.
                 </p>
             </div>
             <a class="button" href="https://github.com/ahmetterturk/TodoList">View Code</a>
         </section>
+
     </main>
 
-
-
-    <footer>
-        <hr>
-        &copy; Ahmet Erturk 2021
-    </footer>
+    
+    
 </body>
 </html>
