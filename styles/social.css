@@ -1,6 +1,14 @@
 img{
     height: 50px;
     width: 50px;
+    transition: transform .8s ease-in-out;
+    transition: 0.8s;
+}
+
+img:hover{
+    transform: rotate(360deg);
+    width: 80px;
+    height: 80px;
 }
 
 .container{
@@ -13,7 +21,7 @@ img{
     align-content: center;
 }
 
-.container a{
+.link-div{
     height: 200px;
     width: 200px;
     display: flex;
@@ -22,3 +30,7 @@ img{
     align-content: center;
 }
 
+h2{
+    margin-top: 100px;
+    text-align: center;
+}
