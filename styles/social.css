@@ -1,3 +1,4 @@
+/* img */
 img{
     height: 50px;
     width: 50px;
@@ -14,6 +15,7 @@ img:hover{
     height: 80px;
 }
 
+/* div element containing image links */
 /* adds responsiveness to image links */
 .container{
     text-align: center;
@@ -25,6 +27,7 @@ img:hover{
     align-content: center;
 }
 
+/* div element of each image link */
 .link-div{
     height: 200px;
     width: 200px;
@@ -34,6 +37,7 @@ img:hover{
     align-content: center;
 }
 
+/* h2 element */
 h2{
     margin-top: 100px;
     text-align: center;
