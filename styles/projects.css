@@ -24,6 +24,7 @@ img{
     border-radius: 10px;
 }
 
+/* adds margin to header 4 and p elements */
 .tech-used > h4,p, .description > h4,p{
     margin: 15px;
 }
@@ -40,10 +41,18 @@ img{
     color: white;
 }
 
+/* adds shadow to projects section on hover */
 .project-section:hover{
     box-shadow: 5px 8px 21px 2px #838383;
 }
 
+/* changes color of button links on hover */
+.button:hover {
+    background-color: rgb(39, 82, 117);
+    color: white;
+}
+
+/* adds responsiveness to projects section*/
 @media (min-width: 900px){
     .projects{
         justify-content: center;
@@ -64,7 +73,3 @@ img{
     width: 30%;
 }
 
-.button:hover {
-    background-color: rgb(39, 82, 117);
-    color: white;
-}

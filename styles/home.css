@@ -1,8 +1,8 @@
 body {
     text-align: center;
-    
 }
 
+/* gives responsivness to home page */
 .home-main{
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
     margin: 100px auto;
 }
 
-
+/* home image properties */
 .home-image{
     margin-top: 40px;
     width: 40%;
@@ -18,12 +18,12 @@ body {
     box-shadow: 7px 10px 11px 5px rgb(82, 82, 82);
 }
 
-
 .home-text{
     margin: auto 40px;
     font-size: 1.5em;
 }
 
+/* changes image size on tablet and mobile devices */
 @media (max-width: 768px){
     .home-image{
         width: 80%;

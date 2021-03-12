@@ -20,9 +20,11 @@
     margin: 20px;
     flex-grow: 1;
 }
+
 .content{
     flex-grow: 2;
 }
+
 .blog-footer{
     margin: 10px 0;
     position: absolute;
@@ -56,6 +58,7 @@
     margin: 10px auto;
 }
 
+/* button link specifications */
 .desktop-button, .mobile-button{
     border: 1px solid rgb(55, 79, 88);
     padding: 10px;
@@ -68,28 +71,27 @@
     color: white;
 }
 
+/* button hover effect */
 .desktop-button:hover, .mobile-button:hover{
     color: rgb(32, 40, 68);
     background-color: white;
 }
 
+/* only displays desktop layout and hides mobile layout at screen sizes over 900px */
 @media screen and (min-width: 900px) {
     .blog-mobile{
         display: none;
     }
 }
 
+/* only displays mobile layout and hides desktop layout at screen sizes under 900px */
 @media screen and (max-width: 900px) {
     .blog-desktop {
         display: none;
     }
-    
 } 
 
-.container:hover{
-    box-shadow: 5px 8px 21px 2px #838383;
-}
-
-.mobile-container:hover{
+/* adds shadow to blog posts on both layouts */
+.container:hover, .mobile-container:hover{
     box-shadow: 5px 8px 21px 2px #838383;
 }
