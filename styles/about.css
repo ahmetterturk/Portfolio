@@ -26,7 +26,7 @@
     .resume-section{
         margin: 70px auto;
     }
-    #desktop-header{
+    #desktop-header-education, #desktop-header-experience, #desktop-header-about{
         border-bottom: none;
     }
 }

@@ -7,6 +7,13 @@
     padding: 10px;
     border-radius: 10px;
 }
+
+.blog-header{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .figure{
     height: 200px;
     width: 200px;
@@ -19,6 +26,8 @@
 .blog-footer{
     margin: 10px 0;
     position: absolute;
+    display: flex; 
+    justify-content: space-between;
 }
 
 .mobile-figure{
@@ -64,13 +73,13 @@
     background-color: white;
 }
 
-@media screen and (min-width: 768px) {
-    .mobile-container{
+@media screen and (min-width: 900px) {
+    .blog-mobile{
         display: none;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .blog-desktop {
         display: none;
     }

@@ -44,7 +44,7 @@ img{
     box-shadow: 5px 8px 21px 2px #838383;
 }
 
-@media (min-width: 768px){
+@media (min-width: 900px){
     .projects{
         justify-content: center;
         flex-direction: row;
