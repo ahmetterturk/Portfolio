@@ -40,7 +40,7 @@ Images are used as links for visual and aesthetic purposes. In the contact page,
 Semantic elements are used to add semantic meaning to html files. These elements are; `nav`, `footer`, `section`, `main`, `article`.
 
 ## Sitemap
-![Sitemap](images/readme-images/Sitemap.png)
+![Sitemap](docs/readme-images/Sitemap.png)
 
 ## Screenshots
 ### Balsamiq Wireframes
