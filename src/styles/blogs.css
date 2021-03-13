@@ -1,0 +1,107 @@
+/* article component which has the class 'container' for desktop layout */
+.container{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* h2 element in desktop layout */
+.blog-header{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* img element in desktop layout */
+.figure{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    flex-grow: 1;
+}
+
+/* text section in desktop layout */
+.content{
+    flex-grow: 2;
+}
+
+/* footer element in desktop layout */
+.blog-footer{
+    margin: 10px 0;
+    position: absolute;
+    display: flex; 
+    justify-content: space-between;
+}
+
+/* img in mobile layout */
+.mobile-figure{
+    width: 50%;
+}
+
+/* outermost sections for both layouts */
+.blog-desktop, .blog-mobile{
+    padding-bottom: 100px;
+}
+
+/* article component which has the class 'container' for mobile layout */
+.mobile-container{
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+/* footer in mobile layout */
+.mobile-blog-footer{
+    margin: 20px auto;
+}
+
+/* text section in mobile layout */
+.mobile-blog-text{
+    width: 70%;
+    margin: 10px auto;
+}
+
+/* button link specifications */
+.desktop-button, .mobile-button{
+    border: 1px solid rgb(55, 79, 88);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(32, 40, 68);
+    transition: 0.2s;
+    background-color: rgb(39, 82, 117);
+    color: white;
+}
+
+/* button hover effect */
+.desktop-button:hover, .mobile-button:hover{
+    color: rgb(32, 40, 68);
+    background-color: white;
+}
+
+/* only displays desktop layout and hides mobile layout at screen sizes over 900px */
+@media screen and (min-width: 900px) {
+    .blog-mobile{
+        display: none;
+    }
+}
+
+/* only displays mobile layout and hides desktop layout at screen sizes under 900px */
+@media screen and (max-width: 900px) {
+    .blog-desktop {
+        display: none;
+    }
+} 
+
+/* adds shadow to blog posts on both layouts */
+.container:hover, .mobile-container:hover{
+    box-shadow: 5px 8px 21px 2px #838383;
+}
