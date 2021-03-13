@@ -3,6 +3,9 @@
 ## Website URL
 https://ahmeterturk.netlify.app/
 
+## Website Repository
+https://github.com/ahmetterturk/portfolio
+
 ## Purpose
 The purpose of this project is to showcase the skills that I have learned in the first couple of weeks and practice them extensively by creating a fully functional portfolio website. 
 
