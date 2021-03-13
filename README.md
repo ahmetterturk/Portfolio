@@ -44,19 +44,19 @@ Semantic elements are used to add semantic meaning to html files. These elements
 
 ## Screenshots
 ### Balsamiq Wireframes
-![Home Page](images/readme-images/Home.png)
-![About Page](images/readme-images/About.png)
-![Projects Page](images/readme-images/Projects.png)
-![Blogs Page](images/readme-images/Blog.png)
-![Contact Page](images/readme-images/Social.png)
+![Home Page](docs/readme-images/Home.png)
+![About Page](docs/readme-images/About.png)
+![Projects Page](docs/readme-images/Projects.png)
+![Blogs Page](docs/readme-images/Blog.png)
+![Contact Page](docs/readme-images/Social.png)
 
 ### Website 
-![home](images/readme-images/sshome.png)
-![about](images/readme-images/ssabout.png)
-![projects](images/readme-images/ssprojects.png)
-![blog](images/readme-images/ssblog.png)
-![contact](images/readme-images/sscontact.png)
-![credit](images/readme-images/sscredit.png)
+![home](docs/readme-images/sshome.png)
+![about](docs/readme-images/ssabout.png)
+![projects](docs/readme-images/ssprojects.png)
+![blog](docs/readme-images/ssblog.png)
+![contact](docs/readme-images/sscontact.png)
+![credit](docs/readme-images/sscredit.png)
 
 ## Target Audience
 The target audience of this project is future employers and other developers.
