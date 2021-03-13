@@ -1,0 +1,239 @@
+commit f6118a3e6866ac75a55f310629cac77a65c5bbc5
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sat Mar 13 14:17:50 2021 +1100
+
+    create readme.md document
+
+commit f8e6b6922a16c6f06f9697aae8ab060586e06cd4
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sat Mar 13 14:17:20 2021 +1100
+
+    create folder for readme images
+
+commit 1b7496721e1649eb04dcb42b6e00e929d4640d2b
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sat Mar 13 12:07:52 2021 +1100
+
+    add SRI hashes to stylesheets and external links
+
+commit 83b39e4f06bc5441392fc6483ef362961a3fdd44
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sat Mar 13 11:21:44 2021 +1100
+
+    finilise comments in about.css
+
+commit cb94fdf0e5b0b8aebe45d832dc23d075cb819c52
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 12 20:00:28 2021 +1100
+
+    add comments to every component in every file
+
+commit a09ebe9a5b6ce0cab47c490894d1bd3b924229a0
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 12 19:21:47 2021 +1100
+
+    add credits.html and credits links to footer
+
+commit 02a1cbca4f1c8507260fd2aa61df95d3a63c7303
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 12 17:38:14 2021 +1100
+
+    add comments to components and elements
+
+commit 5572d907d17fd13833dd583fb7baa676113bfd16
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 12 16:33:23 2021 +1100
+
+    correct code in files that have errors
+
+commit be6bc144217f9d84dab0a179708d56819cf1c49f
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Thu Mar 11 20:58:19 2021 +1100
+
+    add footer
+
+commit 3c1d9430d1130915c0b66cdb62630907dbc57f7c
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Thu Mar 11 18:12:05 2021 +1100
+
+    style blogs page
+
+commit f69e95a40e73e450dd524c54b12cfff97a2637de
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Thu Mar 11 18:11:24 2021 +1100
+
+    change font
+
+commit 51ab5f430f19d4fd1f4cb28950d832c537bd847a
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Thu Mar 11 18:09:47 2021 +1100
+
+    add style to  projects page
+
+commit c51e2721313b471ab0691b3353d477c359a8348e
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Thu Mar 11 18:07:35 2021 +1100
+
+    add images to images folder
+
+commit d2237b1a9b0e870867b2b10f023e5330d6b21ef1
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Thu Mar 11 18:06:03 2021 +1100
+
+    add animation to icons
+
+commit 22dca00153bc86214d779ed6b53cd729555475c5
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Thu Mar 11 18:04:49 2021 +1100
+
+    style about page
+
+commit 06a8369c9e94b5a99a63097385430a52cefad416
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Thu Mar 11 18:03:20 2021 +1100
+
+    add image to home page and style it
+
+commit 32f4539207eadb60eccf6db1f1a48d8474ed8b55
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Wed Mar 10 09:32:24 2021 +1100
+
+    last commit before presentation
+
+commit c5233523bb8cd80f633a887705a245036b247178
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Tue Mar 9 18:35:59 2021 +1100
+
+    style footer and nav links
+
+commit 968d2eb299a27c0d40570fa62286846995823d8c
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Tue Mar 9 18:35:03 2021 +1100
+
+    link home page with main.css
+
+commit b6ed2a63622f47c5e76905000d8bd4bb85885588
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Tue Mar 9 18:34:00 2021 +1100
+
+    add images for project sections and style page
+
+commit 4e82de530e395306a278f03dfc2ab3dc06422ca6
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Tue Mar 9 18:32:23 2021 +1100
+
+    create html elements for mobile view and style page
+
+commit 49d9ae855c23ac1fb9080576fa65ad9c93d07043
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Tue Mar 9 18:30:09 2021 +1100
+
+    add hr component between sections in about.html
+
+commit be613dfbf5cc126c670089977e437d63e4a8f749
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Tue Mar 9 18:27:33 2021 +1100
+
+    add project images
+
+commit 365d4282355967d3e0671e7e02234728bbe17c8c
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Mon Mar 8 22:44:13 2021 +1100
+
+    input image links to social.html and style contents
+
+commit 376a8e3ddc7888e2da9fd8ad17a546ae6a5b72d0
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Mon Mar 8 22:42:14 2021 +1100
+
+    link mutual components to main.css stylesheet
+
+commit e60c37e2550b1144479e42304fb45d1324b06ea5
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Mon Mar 8 22:40:40 2021 +1100
+
+    fill blog files with content
+
+commit ea38b3175d885a078df094e54267673e9af811d4
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sun Mar 7 11:58:45 2021 +1100
+
+    create blog pages folder
+
+commit 918eb466e51268869be1d9dbf53a46d2ec9a76f9
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sun Mar 7 11:06:00 2021 +1100
+
+    make dir for blog images
+
+commit 4cac38689b4aba456ae0593c9fb583733bf653b4
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sun Mar 7 10:15:49 2021 +1100
+
+    put resume file in folder
+
+commit e464cabc6b0234398051c1e90cc037afd74067d3
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sun Mar 7 10:14:53 2021 +1100
+
+    add content to about page
+
+commit 73218f828f9ce84472ab350e64e3be2e46010c9b
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sat Mar 6 17:10:13 2021 +1100
+
+    link css files to html files
+
+commit e390d824fd6eaff93eb64baf25824cc78e01822e
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sat Mar 6 16:55:52 2021 +1100
+
+    add content to social.html
+
+commit fa136fee50de7c983ec3d9f7969249f98ac87a94
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sat Mar 6 16:49:17 2021 +1100
+
+    create images dir, add social media icons
+
+commit ef6c3f0a6dad4a793cffe5d8715671ec82e3201a
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Sat Mar 6 11:30:02 2021 +1100
+
+    add content and style to home page
+
+commit d77d2a77972c8248f64de89430c8f8ea83f3a04c
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 5 20:06:02 2021 +1100
+
+    add about link to navbars
+
+commit 16f99b6cac2ecf8ffcd4cae2f00595de0b1a305f
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 5 20:03:50 2021 +1100
+
+    add about html and css files
+
+commit 17d984c96ce7365ba266254c7c4246d8ddc84ab4
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 5 19:41:12 2021 +1100
+
+    add navbar to pages
+
+commit 758c1e62249cd8eef211fee9d7157e70de3cb925
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 5 19:39:03 2021 +1100
+
+    change socials.html to social.html
+
+commit 48077b310d837a802bbf44c2a03845bef6128e9b
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 5 19:33:23 2021 +1100
+
+    create styles directory and css files
+
+commit 6cad048b12a46916ee3bb90b7f8cb8712bc5bbeb
+Author: ahmetterturk <ahm.ert@hotmail.com>
+Date:   Fri Mar 5 19:31:17 2021 +1100
+
+    create html files
