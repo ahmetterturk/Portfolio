@@ -1,4 +1,4 @@
-# Ahmet Erturk Portfolio - T1A2
+# Ahmet Erturk Portfolio
 
 ## Website URL
 https://ahmeterturk.netlify.app/
